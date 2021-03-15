@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jbpm_pokusaj.iml" filepath="$PROJECT_DIR$/.idea/jbpm_pokusaj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jbpm_tecajna-kjar/jbpm_tecajna-kjar.iml" filepath="$PROJECT_DIR$/jbpm_tecajna-kjar/jbpm_tecajna-kjar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jbpm_tecajna-model/jbpm_tecajna-model.iml" filepath="$PROJECT_DIR$/jbpm_tecajna-model/jbpm_tecajna-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jbpm_tecajna-service/jbpm_tecajna-service.iml" filepath="$PROJECT_DIR$/jbpm_tecajna-service/jbpm_tecajna-service.iml" />
     </modules>
   </component>
 </project>
