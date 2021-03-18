@@ -1,15 +1,17 @@
 <kie-server-state>
-  <controllers/>
+  <controllers>
+    <string>http://localhost:8080/business-central/rest/controller</string>
+  </controllers>
   <configuration>
     <configItems>
       <config-item>
         <name>org.kie.server.controller</name>
-        <value></value>
+        <value>http://localhost:8080/business-central/rest/controller</value>
         <type>java.lang.String</type>
       </config-item>
       <config-item>
         <name>org.kie.server.id</name>
-        <value>jbpm_tecajna-service</value>
+        <value>jbpm_tecajna-service-dev</value>
         <type>java.lang.String</type>
       </config-item>
       <config-item>
@@ -21,7 +23,7 @@
   </configuration>
   <containers>
     <container>
-      <containerId>jbpm_tecajna-kjar-1_0-SNAPSHOT</containerId>
+      <containerId>com.fm:jbpm_tecajna-kjar:1.0-SNAPSHOT</containerId>
       <releaseId>
         <groupId>com.fm</groupId>
         <artifactId>jbpm_tecajna-kjar</artifactId>
@@ -54,7 +56,7 @@
         </config-item>
       </configItems>
       <messages/>
-      <containerAlias>jbpm_tecajna-kjar</containerAlias>
+      <containerAlias></containerAlias>
     </container>
   </containers>
 </kie-server-state>
